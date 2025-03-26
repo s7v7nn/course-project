@@ -7,4 +7,7 @@
 - Бэкенд: Python (Flask)
 - База данных: SQLite
 
-Структура проекта:
+ERD-диаграмма:
+
+![image](https://github.com/user-attachments/assets/986d2cb1-998a-4431-8d71-ad65ccb3f115)
+
