@@ -33,3 +33,5 @@ Thumbs.db
 # Ненужные файлы и папки
 *.bak
 *.tmp
+
+node_modules/
