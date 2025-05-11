@@ -21,17 +21,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// app.get('/paintings', (req, res) => {
-//   db.all('SELECT * FROM paintings', [], (err, rows) => {
-//     if (err) {
-//       console.error('Ошибка при запросе к базе данных:', err.message);
-//       res.status(500).send('Ошибка при получении данных');
-//       return;
-//     }
-//     res.json(rows); 
-//   });
-// });
-
 app.get('/paintings', (req, res) => {
   let data = {};
 
